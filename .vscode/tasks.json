@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "JythonMusic",
+            "type": "shell",
+            "command": "sh c:/Users/Rafal/Documents/jythonMusic/jython.sh \"${file}\" ",
+            "windows": {
+                "command": "c:/Users/Rafal/Documents/jythonMusic/jython \"${file}\" "
+            },
+            "options": {
+                "cwd": "c:/Users/Rafal/Documents/jythonMusic/"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": "true"
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        }
+    ]
+  }
